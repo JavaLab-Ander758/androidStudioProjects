@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Trivia Quiz</string>
+
+    <!-- MainActivity -->
+    <string name="main_start_quiz_button_text">             Start quiz</string>
+    <string name="main_start_settings_button_text">         Settings</string>
+    <string name="main_current_settings">                   Current settings: </string>
+    <string name="main_current_settings_numberOfQuestions"> Number of questions: %s</string>
+    <string name="main_current_settings_category">          Category: %s</string>
+    <string name="main_current_settings_difficulty">        Difficulty: %s</string>
+    <string name="main_current_settings_typeOfQuestions">   Type of Questions: %s</string>
+    <string name="main_download_new_questions_button">      Download new questions</string>
+        <!-- Toasts -->
+        <string name="main_toast_started_downloading">      Started downloading questions</string>
+        <string name="main_toast_no_questions_error">       Sorry, no questions found. Please try again!</string>
+
+    <string name="settings_title">Settings</string>
+    <string name="settings_numberOfQuestions_EditTextPreference">           Number of questions</string>
+    <string name="settings_numberOfQuestions_EditTextPreference_summary">   Minimum 1, maximum 50</string>
+
+    <!-- QuizActivity -->
+    <string name="quiz_save_and_quit_button">   Save and quit</string>
+    <string name="quiz_discard_and_quit_button">Discard and quit</string>
+    <string name="quiz_next_question_button">   Next question</string>
+    <string name="quiz_finish_quiz_button">     Finish quiz</string>
+    <string name="quiz_current_index_text">     Question #%d of %d</string>
+        <!-- Toasts -->
+        <string name="quiz_toast_save_and_quit">Saving and quitting</string>
+        <string name="quiz_toast_discard_and_quit">Deleting save and quitting</string>
+
+    <!-- StatisticsActivity -->
+    <string name="statistics_title">Statistics</string>
+    <string name="statistics_number_of_questions_title">Number of questions:</string>
+    <string name="statistics_correct_answers_title">Correct answers:</string>
+    <string name="statistics_wrong_answers_title">Wrong answers:</string>
+    <string name="statistics_exit_button">Exit quiz</string>
+</resources>

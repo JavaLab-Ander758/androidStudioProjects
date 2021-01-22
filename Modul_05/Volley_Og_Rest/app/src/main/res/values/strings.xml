@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Volley_Og_Rest</string>
+
+    <string name="users">Users</string>
+
+    <string name="download_button">Download</string>
+    <string name="downloading_users">Downloading users...</string>
+    <string name="download_complete_user">All users downloaded...</string>
+    <string name="download_button_user">Download users</string>
+
+    <string name="downloading_albums">Downloading albums...</string>
+    <string name="download_complete_album">All albums downloaded...</string>
+    <string name="download_button_album">Download albums</string>
+
+    <string name="downloading_photos">Downloading photos</string>
+    <string name="download_complete_photo">All photos downloaded...</string>
+    <string name="download_button_photo">Download photos</string>
+
+    <string name="displaying_image">Displaying image...</string>
+    <string name="display_image_button">Display image</string>
+    <string name="image_displayed">Image displayed!</string>
+</resources>

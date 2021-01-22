@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".fragment.ExerciseFragment">
+
+
+    <TextView
+        style="@style/TextView40sp"
+        android:text="@string/exercise_exercises" />
+
+    <TextView
+        style="@style/TextView30sp"
+        android:text="@string/exercise_program_name" />
+
+    <TextView
+        android:id="@+id/exercise_program_name"
+        style="@style/TextView20spWithLeftPadding" />
+
+    <TextView
+        style="@style/TextView30sp"
+        android:text="@string/exercise_program_description" />
+
+    <TextView
+        android:id="@+id/exercise_program_description"
+        style="@style/TextView20spWithLeftPadding" />
+
+    <Button
+        android:id="@+id/testButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add colour to exercises" />
+
+    <ListView
+        android:id="@+id/listId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

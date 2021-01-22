@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tower of Hanoi</string>
+    <string name="title_description">Hvor raskt klarer du å flytte ringene fra tårn 1 til tårn 3? Velg antall ringer.</string>
+    <string name="number_of_rings">"Antall ringer: "</string>
+    <string name="large_ring_orange">Stor oransje ring</string>
+    <string name="medium_ring_yellow">Medium gul ring</string>
+    <string name="small_ring_blue">Minste blå ring</string>
+    <string name="moves_used_by_user">Antall flytt: ?</string>
+    <string name="seconds_used_by_user">Sekunder: 0</string>
+    <string name="moves_used_by_user_win_message">Antall flytt: %x</string>
+    <string name="seconds_used_by_used_win_message">Sekunder: %x</string>
+    <string name="button_start">Start</string>
+    <string name="button_stop">Stopp</string>
+    <string name="button_reset">Start på nytt</string>
+</resources>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_navigation"
+    app:startDestination="@id/userFragment">
+
+    <fragment
+        android:id="@+id/userFragment"
+        android:name="com.andyeseapps.treningsprogram_navigation.fragment.UserFragment"
+        android:label="User/Login screen"
+        tools:layout="@layout/fragment_user">
+        <action
+            android:id="@+id/action_loginFragment_to_programFragment"
+            app:destination="@id/programFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_signUpFragment"
+            app:destination="@id/signUpFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.andyeseapps.treningsprogram_navigation.fragment.SignUpFragment"
+        android:label="fragment_signup"
+        tools:layout="@layout/fragment_signup" />
+
+    <fragment
+        android:id="@+id/programFragment"
+        android:name="com.andyeseapps.treningsprogram_navigation.fragment.ProgramFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_program">
+        <!--        <action-->
+        <!--            android:id="@+id/action_yellow"-->
+        <!--            app:destination="@id/settingsFragment"-->
+        <!--            app:enterAnim="@anim/slide_in_right"-->
+        <!--            app:exitAnim="@anim/slide_in_left"-->
+        <!--            app:popEnterAnim="@anim/slide_in_left"-->
+        <!--            app:popExitAnim="@anim/slide_out_right" />-->
+
+        <action
+            android:id="@+id/action_programFragment_to_exerciseFragment"
+            app:destination="@id/exerciseFragment">
+            <argument
+                android:name="programObject"
+                app:argType="com.andyeseapps.treningsprogram_navigation.entity.Program" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/exerciseFragment"
+        android:name="com.andyeseapps.treningsprogram_navigation.fragment.ExerciseFragment"
+        android:label="ExerciseFragment"
+        tools:layout="@layout/fragment_exercise">
+        <argument
+            android:name="programObject"
+            app:argType="com.andyeseapps.treningsprogram_navigation.entity.Program" />
+        <action
+            android:id="@+id/action_exerciseFragment_to_ExerciseDetailFragment"
+            app:destination="@id/exerciseDetailFragment">
+            <argument
+                android:name="exerciseObject"
+                app:argType="com.andyeseapps.treningsprogram_navigation.entity.Exercise" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/exerciseDetailFragment"
+        android:name="com.andyeseapps.treningsprogram_navigation.fragment.ExerciseDetailFragment"
+        android:label="ExerciseDetailFragment"
+        tools:layout="@layout/fragment_exercise_detail">
+        <argument
+            android:name="exerciseObject"
+            app:argType="com.andyeseapps.treningsprogram_navigation.entity.Exercise" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.andyeseapps.treningsprogram_navigation.fragment.SettingsFragment"
+        android:label="@string/settings"
+        tools:layout="@layout/fragment_settings" />
+
+
+    <action
+        android:id="@+id/action_global_programFragment"
+        app:destination="@id/programFragment" />
+
+
+</navigation>

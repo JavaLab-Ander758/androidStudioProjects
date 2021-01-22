@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="numberOfQuestions">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+        <item>"5"</item>
+        <item>"6"</item>
+        <item>"7"</item>
+        <item>"8"</item>
+        <item>"9"</item>
+        <item>"10"</item>
+        <item>"11"</item>
+        <item>"12"</item>
+        <item>"13"</item>
+        <item>"14"</item>
+        <item>"15"</item>
+        <item>"16"</item>
+        <item>"17"</item>
+        <item>"18"</item>
+        <item>"19"</item>
+        <item>"20"</item>
+        <item>"21"</item>
+        <item>"22"</item>
+        <item>"23"</item>
+        <item>"24"</item>
+        <item>"25"</item>
+        <item>"26"</item>
+        <item>"27"</item>
+        <item>"28"</item>
+        <item>"29"</item>
+        <item>"30"</item>
+        <item>"31"</item>
+        <item>"32"</item>
+        <item>"33"</item>
+        <item>"34"</item>
+        <item>"35"</item>
+        <item>"36"</item>
+        <item>"37"</item>
+        <item>"38"</item>
+        <item>"39"</item>
+        <item>"40"</item>
+        <item>"41"</item>
+        <item>"42"</item>
+        <item>"43"</item>
+        <item>"44"</item>
+        <item>"45"</item>
+        <item>"46"</item>
+        <item>"47"</item>
+        <item>"48"</item>
+        <item>"49"</item>
+        <item>"50"</item>
+    </string-array>
+    <integer-array name="numberOfQuestionsValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+    </integer-array>
+
+    <string-array name="categoryNames">
+        <item>Any Category</item>
+        <item>General Knowledge</item>
+        <item>Entertainment: Books</item>
+        <item>Entertainment: Film</item>
+        <item>Entertainment: Music</item>
+        <item>Entertainment: Musicals &amp; Theatres</item>
+        <item>Entertainment: Television</item>
+        <item>Entertainment: Video Games</item>
+        <item>Entertainment: Board Games</item>
+        <item>Science &amp; Nature</item>
+        <item>Science: Computers</item>
+        <item>Science: Mathematics</item>
+        <item>Mythology</item>
+        <item>Sports</item>
+        <item>Geography</item>
+        <item>History</item>
+        <item>Politics</item>
+        <item>Art</item>
+        <item>Celebrities</item>
+        <item>Animals</item>
+        <item>Vehicles</item>
+        <item>Entertainment: Comics</item>
+        <item>Science: Gadgets</item>
+        <item>Entertainment: Japanese Anime &amp; Manga</item>
+        <item>Entertainment: Cartoon &amp; Animations</item>
+    </string-array>
+    <string-array name="categoryValues">
+        <item>Any</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+    </string-array>
+
+
+    <string-array name="difficultyNames">
+        <item>Any Difficulty</item>
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+    </string-array>
+    <string-array name="difficultyValues">
+        <item>Any</item>
+        <item>easy</item>
+        <item>medium</item>
+        <item>hard</item>
+    </string-array>
+
+
+    <string-array name="typeNames">
+        <item>Any Type</item>
+        <item>Multiple choice</item>
+        <item>True / Flase</item>
+    </string-array>
+    <string-array name="typeValues">
+        <item>Any</item>
+        <item>multiple</item>
+        <item>boolean</item>
+    </string-array>
+</resources>

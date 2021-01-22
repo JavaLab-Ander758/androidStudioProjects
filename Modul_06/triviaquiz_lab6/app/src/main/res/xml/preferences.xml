@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <PreferenceCategory android:title="Main settings category">
+        <ListPreference
+            android:key="NUMBER_OF_QUESTIONS"
+            app:title="Number of questions"
+            android:entries="@array/numberOfQuestions"
+            android:entryValues="@array/numberOfQuestions"
+            android:summary="Choose your preferred category"/>
+
+        <ListPreference
+            android:key="CATEGORY_QUESTIONS"
+            app:title="Category"
+            android:entries="@array/categoryNames"
+            android:entryValues="@array/categoryValues"
+            android:summary="Choose your preferred category"/>
+
+        <ListPreference
+            android:key="DIFFICULTY_QUESTIONS"
+            android:title="Difficulty"
+            android:entries="@array/difficultyNames"
+            android:entryValues="@array/difficultyValues"
+            android:summary="Choose your difficulty"/>
+
+        <ListPreference
+            android:key="TYPE_QUESTIONS"
+            android:title="Type of questions"
+            android:entries="@array/typeNames"
+            android:entryValues="@array/typeValues"
+            android:summary="Choose your type of question"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Extras (Implement later in style..)">
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="DARK_MODE"
+            android:summary="Enable or disable dark mode"
+            android:title="Dark mode" >
+        </SwitchPreferenceCompat>
+    </PreferenceCategory>
+
+
+
+</androidx.preference.PreferenceScreen>

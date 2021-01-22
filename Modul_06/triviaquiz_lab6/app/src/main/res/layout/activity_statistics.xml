@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/styleMatchParent"
+    android:orientation="vertical"
+    tools:context=".StatisticsActivity"
+    android:id="@+id/statistics_LinearLayout">
+
+    <TextView
+        android:id="@+id/statistics_title"
+        android:text="@string/statistics_title"
+        android:textSize="40sp"
+        android:layout_gravity="top|center"
+        style="@style/styleWrapContent"/>
+
+
+    <TextView
+        android:text="@string/statistics_number_of_questions_title"
+        android:textSize="25sp"
+        style="@style/styleWrapContent"/>
+
+    <TextView
+        android:id="@+id/statistics_numberOfAnswersTextView"
+        android:textSize="20sp"
+        style="@style/styleLeftPadding"/>
+
+    <TextView
+        android:text="@string/statistics_correct_answers_title"
+        android:textSize="25sp"
+        style="@style/styleWrapContent"/>
+    <TextView
+        android:id="@+id/statistics_correctAnswersTextView"
+        style="@style/styleLeftPadding"/>
+
+    <TextView
+        android:text="@string/statistics_wrong_answers_title"
+        android:textSize="25sp"
+        style="@style/styleWrapContent"/>
+    <TextView
+        android:id="@+id/statistics_incorrectAnswersTextView"
+        style="@style/styleLeftPadding"/>
+
+    <Button
+        android:id="@+id/statistics_quitToMainButton"
+        android:text="@string/statistics_exit_button"
+        android:onClick="exitStatistics"
+        style="@style/ButtonStyle"/>
+</LinearLayout>

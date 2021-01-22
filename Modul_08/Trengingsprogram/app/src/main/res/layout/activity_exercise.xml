@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary"
+        android:elevation="4dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:titleTextColor="#000000" />
+
+    <TextView
+        android:text="@string/exercise_exercises"
+        style="@style/TextView40sp"/>
+
+    <TextView
+        android:text="@string/exercise_program_name"
+        style="@style/TextView30sp"/>
+    <TextView
+        android:id="@+id/exercise_program_name"
+        android:text="asdfasdf"
+        style="@style/TextView20spWithLeftPadding" />
+
+    <TextView
+        android:text="@string/exercise_program_description"
+        style="@style/TextView30sp"/>
+    <TextView
+        android:id="@+id/exercise_program_description"
+        android:text="asdfasdf"
+        style="@style/TextView20spWithLeftPadding"/>
+
+
+        <ListView
+            android:id="@+id/listId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lab4.2</string>
+
+    <string name="lorem_ipsum" formatted="false">%s</string>
+</resources>

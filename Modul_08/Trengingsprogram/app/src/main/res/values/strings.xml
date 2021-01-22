@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Trengingsprogram</string>
+
+    <!-- General strings -->
+    <string name="downloading">Downloading...</string>
+    <string name="no_downloading">Nothing to download...</string>
+
+    <!-- MainActivity -->
+    <string name="main_programs">Programs</string>
+
+    <!-- ExerciseActivity -->
+    <string name="exercise_exercises">Exercises</string>
+    <string name="exercise_program_name">Program name: </string>
+    <string name="exercise_program_description">Program description: </string>
+
+    <!-- ShowExerciseActivity -->
+    <string name="show_exercise_exercise">Exercise</string>
+    <string name="show_exercise_name">Name:</string>
+    <string name="show_exercise_description">Description:</string>
+    <string name="show_exercise_image">Image:</string>
+    <string name="show_exercise_imageview_contentdescription">Exercise icon</string>
+
+    <!-- toolbar-menu -->
+    <string name="toolbar_menu_settings">Settings</string>
+    <string name="toolbar_menu_refresh_downloaded">Download again</string>
+    <string name="toolbar_menu_about_app">About the app</string>
+    <string name="toolbar_menu_about_app_text">This app is made by Anders Rubach Ese</string>
+    <string name="toolbar_menu_quit">Quit</string>
+    <string name="toolbar_menu_quit_quitting">Quitting!</string>
+
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Tower of Hanoi</string>
+    <string name="title_description">How fast are you able to move the rings from tower 1 to tower 3?</string>
+    <string name="number_of_rings">Number of rings:</string>
+    <string name="small_ring_blue">Smallest blue ring</string>
+    <string name="medium_ring_yellow">Medium yellow ring</string>
+    <string name="large_ring_orange">Large orange ring</string>
+    <string name="moves_used_by_user">Number of moves: ?</string>
+    <string name="seconds_used_by_user">Seconds: 0</string>
+
+    <string name="moves_used_by_user_win_message" formatted="false">Number of moves: %d</string>
+    <string name="seconds_used_by_used_win_message" formatted="false">Seconds: %d</string>
+
+    <string name="button_start">Start</string>
+    <string name="button_stop">Stop</string>
+    <string name="button_reset">Reset</string>
+
+
+</resources>

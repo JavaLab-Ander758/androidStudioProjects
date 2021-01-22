@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bondesjakk</string>
+
+    <string name="exit_button_name">Avslutt</string>
+
+    <string name="btnStartStop_START">Start</string>
+    <string name="btnStartStop_STOP">Stopp</string>
+    <string name="button_player1">1 (X)</string>
+    <string name="button_player2">2 (O)</string>
+
+    <string name="game_draw_result_format" formatted="false">"Ingen vant! Poeng spiller1=%x og spiller2=%x %nSpiller1 brukte %x sekunder, Spiller2 brukte %x sekunder"</string>
+    <string name="game_result">Resultat:</string>
+    <string name="game_won_result_format" formatted="false">"Spiller%x vant og har nå %x poeng! Spiller%x har %x poeng.. %nSpiller1 brukte %x sekunder, Spiller2 brukte %x sekunder"</string>
+
+    <string name="main_button">Tilbake til bondesjakk</string>
+
+    <string name="player_header">Spiller</string>
+</resources>

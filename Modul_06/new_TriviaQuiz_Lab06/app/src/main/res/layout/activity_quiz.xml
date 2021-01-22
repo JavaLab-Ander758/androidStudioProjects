@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".QuizActivity"
+    android:id="@+id/quiz_LinearLayout">
+
+    <TextView
+        android:id="@+id/quiz_currentIndexTextView"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/quiz_saveAndQuitButton"
+            android:text="@string/quiz_save_and_quit_button"
+            android:onClick="saveAndQuitQuiz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/quiz_discardAndQuitButton"
+            android:text="@string/quiz_discard_and_quit_button"
+            android:onClick="discardAndQuitQuiz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+     <TextView
+         android:id="@+id/quiz_questionTitleTextView"
+         android:gravity="center_horizontal"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textStyle="bold"/>
+
+    <RadioGroup
+        android:id="@+id/quiz_questionRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"/>
+
+    <Button
+        android:id="@+id/quiz_nextQuestionButton"
+        android:text="@string/quiz_finish_quiz_button"
+        android:onClick="goToNextQuestion"
+        android:layout_gravity="bottom|end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

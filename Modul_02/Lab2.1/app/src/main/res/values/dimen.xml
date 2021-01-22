@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="buttonMargin">3sp</dimen>
+    <dimen name="buttonTextSize">30sp</dimen>
+
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,2 @@
+rootProject.name='Kontaktdatabasen'
+include ':app'

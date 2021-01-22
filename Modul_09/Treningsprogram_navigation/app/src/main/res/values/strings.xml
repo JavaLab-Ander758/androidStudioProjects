@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Treningsprogram_navigation</string>
+
+
+    <!--Code-critical variables-->
+    <!--TODO: Check this works-->
+    <string name="program_package_reference">com.andyeseapps.treningsprogram_navigation.entity.Program</string>
+
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="settings">Settings</string>
+    <string name="back">Back</string>
+    <string name="log_out">Log out</string>
+    <string name="home">Home</string>
+
+
+    <!-- General strings -->
+    <string name="downloading">Downloading…</string>
+    <string name="no_downloading">Nothing to download…</string>
+
+    <!-- MainActivity -->
+    <string name="main_programs">Programs</string>
+
+    <!-- ExerciseActivity -->
+    <string name="exercise_exercises">Exercises</string>
+    <string name="exercise_program_name">Program name: </string>
+    <string name="exercise_program_description">Program description: </string>
+
+    <!-- ShowExerciseActivity -->
+    <string name="show_exercise_exercise">Exercise</string>
+    <string name="show_exercise_name">Name:</string>
+    <string name="show_exercise_description">Description:</string>
+    <string name="show_exercise_image">Image:</string>
+    <string name="show_exercise_imageview_contentdescription">Exercise icon</string>
+
+    <!-- SettingsFragment -->
+    <string name="settings_version_name">Version number: %s</string>
+
+    <!-- toolbar-menu -->
+    <string name="toolbar_menu_settings">Settings</string>
+    <string name="toolbar_menu_refresh_downloaded">Download again</string>
+    <string name="toolbar_menu_about_app">About the app</string>
+    <string name="toolbar_menu_about_app_text">This app is made by Anders Rubach Ese</string>
+    <string name="toolbar_menu_quit">Quit</string>
+    <string name="toolbar_menu_quit_quitting">Quitting!</string>
+    <string name="fragment_user_title">Login/registration</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login_create_account">Create an account</string>
+    <string name="login_signUp">Sign up</string>
+    <string name="signup_title">Create an account below</string>
+    <string name="password_confirm">Confirm password</string>
+    <string name="signUp_signUp">Create account</string>
+    <string name="login_wrong_credentials">Username/password incorrect</string>
+    <string name="signUp_password_mismatch">Passwords did not match up!</string>
+    <string name="login_message">Logging in…</string>
+    <string name="logout_message">Logging out…</string>
+    <string name="empty_input_fields">Some field are empty!</string>
+    <string name="fragment_user_login">Login</string>
+    <string name="fragment_user_logout">Log out</string>
+    <string name="user">User</string>
+    <string name="fragment_user_already_logged_out">Already logged out…</string>
+    <string name="register_user_success_message">User successfully created!</string>
+
+</resources>

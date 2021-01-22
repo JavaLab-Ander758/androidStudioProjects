@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/styleMatchParent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:id="@+id/main_LinearLayout">
+
+    <!-- Top buttons -->
+    <LinearLayout
+
+        style="@style/styleWrapContent"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/startQuizActivityButton"
+            android:text="@string/main_start_quiz_button_text"
+            android:onClick="startQuizActivity"
+            style="@style/ButtonStyle"/>
+        <Button
+            android:id="@+id/downloadNewQuestionsButton"
+            android:text="@string/main_download_new_questions_button"
+            android:onClick="downloadNewQuestions"
+            style="@style/ButtonStyle"/>
+    </LinearLayout>
+
+    <!-- Current settings -->
+    <LinearLayout
+        style="@style/styleWrapContent"
+        android:orientation="vertical">
+        <TextView
+            android:text="@string/main_current_settings"
+            android:textSize="20sp"
+            style="@style/styleMatchParent"/>
+        <TextView
+            android:id="@+id/mainNumberOfQuestions"
+            android:text="@string/main_current_settings_numberOfQuestions"
+            style="@style/styleMatchParent"/>
+        <TextView
+            android:id="@+id/mainCategoryTextView"
+            android:text="@string/main_current_settings_category"
+            style="@style/styleMatchParent"/>
+        <TextView
+            android:id="@+id/mainDifficultyTextView"
+            android:text="@string/main_current_settings_difficulty"
+            style="@style/styleMatchParent"/>
+        <TextView
+            android:id="@+id/mainTypeOfQuestions"
+            android:text="@string/main_current_settings_typeOfQuestions"
+            style="@style/styleMatchParent"/>
+    </LinearLayout>
+</LinearLayout>

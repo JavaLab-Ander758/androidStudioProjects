@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/outerLinearLayout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <!-- Ads -->
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-7008288867194351/3509100409">
+    </com.google.android.gms.ads.AdView>
+
+    <!-- Top title -->
+    <TextView
+        android:id="@+id/textViewTitle"
+        style="@style/TitleTextViewStyle" />
+    <!-- Start Button -->
+    <Button
+        android:id="@+id/buttonStartStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/button_start"
+        android:onClick="startStop"/>
+
+    <!-- Inner horizontal LinearLayout -->
+    <LinearLayout
+        android:id="@+id/linearLayoutAllTowers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_gravity="center">
+
+        <!-- Left Tower -->
+        <LinearLayout
+            android:id="@+id/leftTower"
+            style="@style/TowerCommonLinearLayoutStyle">
+            <ImageView
+                android:id="@+id/smallRectangle"
+                style="@style/RingCommonStyle"
+                android:contentDescription="@string/small_ring_blue"
+                android:layout_width="60dp"
+                android:src="@drawable/rectangle_small_blue" />
+            <ImageView
+                android:id="@+id/middleRectangle"
+                style="@style/RingCommonStyle"
+                android:contentDescription="@string/medium_ring_yellow"
+                android:layout_width="80dp"
+                android:src="@drawable/rectangle_middle_yellow" />
+            <ImageView
+                android:id="@+id/largeRectangle"
+                style="@style/RingCommonStyle"
+                android:contentDescription="@string/large_ring_orange"
+                android:layout_width="100dp"
+                android:src="@drawable/rectangle_large_orange" />
+        </LinearLayout>
+        <!-- Middle Tower -->
+        <LinearLayout
+            android:id="@+id/middleTower"
+            style="@style/TowerCommonLinearLayoutStyle"/>
+        <!-- Right Tower -->
+        <LinearLayout
+            android:id="@+id/rightTower"
+            style="@style/TowerCommonLinearLayoutStyle"/>
+
+    </LinearLayout>
+
+    <!-- Last horizontal LinearLayout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:gravity="top|center">
+        <TextView
+            android:id="@+id/textViewMovesUsed"
+            style="@style/BottomOutputTextView"
+            android:text="@string/moves_used_by_user"
+            android:layout_marginEnd="16dp"/>
+        <TextView
+            android:id="@+id/textViewSecondsUsed"
+            style="@style/BottomOutputTextView"
+            android:text="@string/seconds_used_by_user"/>
+    </LinearLayout>
+
+</LinearLayout>

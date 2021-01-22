@@ -1,0 +1,2 @@
+rootProject.name='TheLastDeath'
+include ':app'

@@ -1,0 +1,3 @@
+rootProject.name='Modules_09'
+include ':app', ':android_navigation_java', ':navigation2'
+include ':kontaktdatabasen_navigation'

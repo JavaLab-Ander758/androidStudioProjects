@@ -1,0 +1,2 @@
+include ':app', ':appbartest1', ':huskeliste1', ':huskeliste2'
+rootProject.name='Module_02_WF_Modules'

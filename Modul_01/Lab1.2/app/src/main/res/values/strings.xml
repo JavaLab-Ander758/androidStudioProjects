@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Nedtellings appen</string>
+    <string name="button_calculate_date_EditText">BEREGN ANTALL DAGER</string>
+    <string name="input_date_hint">dd.mm.åååå</string>
+    <string name="startup_countdown_message">Her kommer nedtelling...</string>
+    <string name="button_calculate_date_Calendar">BEREGN ANTALL DAGER FRA KALENDER</string>
+</resources>

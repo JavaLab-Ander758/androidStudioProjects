@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        style="@style/toolbar_style"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:text="Contact"
+        style="@style/TextView40sp"/>
+
+    <TextView
+        android:text="First name"
+        style="@style/TextView30sp"/>
+    <TextView
+        android:id="@+id/tv_contact_firstname"
+        android:text="asdfasdf"
+        style="@style/TextView20spWithLeftPadding" />
+
+    <TextView
+        android:text="Last name"
+        style="@style/TextView30sp"/>
+    <TextView
+        android:id="@+id/tv_contact_lastname"
+        android:text="asdfasdf"
+        style="@style/TextView20spWithLeftPadding" />
+
+    <TextView
+        android:text="Email"
+        style="@style/TextView30sp"/>
+    <TextView
+        android:id="@+id/tv_contact_email"
+        android:text="asdfasdf"
+        style="@style/TextView20spWithLeftPadding" />
+
+    <TextView
+        android:text="Phone number"
+        style="@style/TextView30sp"
+        android:clickable="true"
+        android:autoLink="phone"/>
+    <TextView
+        android:id="@+id/tv_contact_phonenumber"
+        android:text="asdfasdf"
+        style="@style/TextView20spWithLeftPadding" />
+
+    <TextView
+        android:text="Birth year"
+        style="@style/TextView30sp"/>
+    <TextView
+        android:id="@+id/tv_contact_birthyear"
+        android:text="asdfasdf"
+        style="@style/TextView20spWithLeftPadding" />
+
+</LinearLayout>

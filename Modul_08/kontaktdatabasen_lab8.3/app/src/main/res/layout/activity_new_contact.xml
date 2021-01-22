@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        style="@style/toolbar_style"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <EditText
+        android:id="@+id/et_contact_lastname"
+        style="@style/et_new_contact_input"
+        android:hint="@string/hint_last_name"
+        android:inputType="textAutoComplete" />
+
+    <EditText
+        android:id="@+id/et_contact_firstname"
+        style="@style/et_new_contact_input"
+        android:hint="@string/hint_first_name"
+        android:inputType="textAutoComplete" />
+
+    <EditText
+        android:id="@+id/et_contact_email"
+        style="@style/et_new_contact_input"
+        android:hint="@string/hint_email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/et_contact_phonenumber"
+        style="@style/et_new_contact_input"
+        android:hint="@string/hint_phone_number"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/et_contact_birthyear"
+        style="@style/et_new_contact_input"
+        android:digits="0123456789"
+        android:hint="@string/hint_birth_year"
+        android:inputType="numberDecimal|numberSigned"
+        android:maxLength="4" />
+
+    <Spinner
+        android:id="@+id/spinner_existing_categories_new_contacs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"/>
+
+
+    <Button
+        android:id="@+id/button_save_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="@string/button_save"
+        android:textColor="@color/buttonLabel" />
+
+
+</LinearLayout>

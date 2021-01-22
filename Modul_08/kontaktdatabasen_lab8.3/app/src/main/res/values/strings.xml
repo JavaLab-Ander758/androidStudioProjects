@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Kontaktdatabasen</string>
+
+    <string name="hint_word">Word…</string>
+    <string name="button_save">Save</string>
+    <string name="empty_not_saved">No actions made…</string>
+    <string name="general_contact">Contact</string>
+    <string name="general_contacts">Contacts</string>
+    <string name="general_category">Category</string>
+    <string name="general_categories">Categories</string>
+    <string name="general_no_contacts">No contacts</string>
+
+    <!-- MainActivity.java -->
+
+    <!-- DeleteContactActivity.java -->
+    <string name="alert_dialog_delete_contact">Are you sure you want do delete?</string>
+    <string name="yes">Yes!</string>
+    <string name="no">No!</string>
+    <string name="delete_contact_instructions">Tap on the contact you want to delete</string>
+
+    <!-- NewContactActivity.java -->
+    <string name="hint_last_name">Last name</string>
+    <string name="hint_first_name">First name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_phone_number">Phone number</string>
+    <string name="hint_birth_year">Birth year</string>
+    <string name="new_contact_illegal">You can\'t choose that as a category</string>
+
+    <!-- NewCategoryActivity.java -->
+    <string name="new_category">New category</string>
+    <string name="new_category_instructions">Please fill inn fields and click save</string>
+    <string name="hint_category_description">Description</string>
+
+    <!-- DeleteCategoryActivity.java -->
+    <string name="delete_category">Delete a category</string>
+    <string name="delete_category_instructions">Tap on the category you want to delete</string>
+    <string name="delete_category_illegal">You can\'t delete </string>
+
+</resources>

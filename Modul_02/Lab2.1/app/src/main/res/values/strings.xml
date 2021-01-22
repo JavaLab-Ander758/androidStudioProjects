@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">tic-tac-toe</string>
+
+    <string name="exit_button_name">Quit</string>
+
+    <string name="btnStartStop_START">Start</string>
+    <string name="btnStartStop_STOP">Stop</string>
+    <string name="button_player1">1 (X)</string>
+    <string name="button_player2">2 (O)</string>
+
+    <string name="game_draw_result_format">"Nobody won! Points player1=%x and player2=%x %nPlayer1 used %x seconds and Player2 used %x seconds"</string>
+    <string name="game_result">Result:</string>
+    <string name="game_won_result_format">"Player%x won and now has %x points! Player%x has %x points.. %nPlayer1 used %x seconds, Player2 used %x seconds"</string>
+
+    <string name="main_button">Back to tic-tac-toe</string>
+
+    <string name="player_header">Player</string>
+</resources>
+
+
+

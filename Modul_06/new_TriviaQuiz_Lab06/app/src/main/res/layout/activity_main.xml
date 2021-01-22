@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:id="@+id/main_LinearLayout">
+
+    <!-- Top buttons -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/startQuizActivityButton"
+            android:text="@string/main_start_quiz_button_text"
+            android:onClick="startQuizActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/downloadNewQuestionsButton"
+            android:text="@string/main_download_new_questions_button"
+            android:onClick="downloadNewQuestions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <!-- Current settings -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:text="@string/main_current_settings"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/mainNumberOfQuestions"
+            android:text="@string/main_current_settings_numberOfQuestions"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/mainCategoryTextView"
+            android:text="@string/main_current_settings_category"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/mainDifficultyTextView"
+            android:text="@string/main_current_settings_difficulty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/mainTypeOfQuestions"
+            android:text="@string/main_current_settings_typeOfQuestions"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+        <!-- Testing -->
+        <Button
+            android:id="@+id/generateDummyQuestionsButton"
+            android:text="generate dummies"
+            android:onClick="generateDummyQuestions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/testingTextView"
+            android:text="testing..."
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+</LinearLayout>

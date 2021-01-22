@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/styleMatchParent"
+    android:orientation="vertical"
+    tools:context=".QuizActivity"
+    android:id="@+id/quiz_LinearLayout">
+
+    <TextView
+        android:id="@+id/quiz_currentIndexTextView"
+        android:textSize="25sp"
+        style="@style/styleWrapContent"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        style="@style/styleWrapContent">
+        <Button
+            android:id="@+id/quiz_saveAndQuitButton"
+            android:text="@string/quiz_save_and_quit_button"
+            android:onClick="saveAndQuitQuiz"
+            style="@style/ButtonStyle"/>
+        <Button
+            android:id="@+id/quiz_discardAndQuitButton"
+            android:text="@string/quiz_discard_and_quit_button"
+            android:onClick="discardAndQuitQuiz"
+            style="@style/ButtonStyle"/>
+    </LinearLayout>
+
+     <TextView
+         android:id="@+id/quiz_questionTitleTextView"
+         android:gravity="center_horizontal"
+         style="@style/styleWrapContent"
+         android:textStyle="bold"/>
+
+    <RadioGroup
+        android:id="@+id/quiz_questionRadioGroup"
+        style="@style/styleWrapContent"
+        android:orientation="vertical"/>
+
+    <Button
+        android:id="@+id/quiz_nextQuestionButton"
+        android:text="@string/quiz_next_question_button"
+        android:onClick="goToNextQuestion"
+        android:layout_gravity="bottom|end"
+        style="@style/ButtonStyle"/>
+</LinearLayout>

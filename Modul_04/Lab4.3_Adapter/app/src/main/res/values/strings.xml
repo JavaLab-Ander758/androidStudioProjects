@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Adapter</string>
+
+    <string name="lorem_ipsum" formatted="false">%s</string>
+</resources>

@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.MainActivity" >
+
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/toolbar_menu_settings"
+        android:orderInCategory="001"
+        app:showAsAction="collapseActionView"/>
+
+    <item
+        android:id="@+id/action_refresh"
+        android:title="@string/toolbar_menu_refresh_downloaded"
+        android:orderInCategory="002"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/action_about"
+        android:title="@string/toolbar_menu_about_app"
+        android:orderInCategory="003"
+        app:showAsAction="collapseActionView" />
+
+    <item android:id="@+id/action_quit"
+        android:title="@string/toolbar_menu_quit"
+        android:orderInCategory="004"
+        app:showAsAction="collapseActionView" />
+
+</menu>
