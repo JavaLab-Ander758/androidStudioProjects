@@ -14,17 +14,8 @@ Oppgave i faget ***ITE1802-1 20V Programmering for mobil*** Det er utviklet av f
  - Ingen nye per nå  
   
 Du kan:  
- - blablabla
- - blablabla
- - blablabla
- - blablabla
+ - Jobbe mote et REST API
 <br> 
-
- Hva sier brukerne? 
-> Wow, dette var en god app!  
-> Anbefales på det sterksete.  
-> Kjempeflott app!  
-> Fantastisk!  
   
 ### Tech  
 Følgende teknologier benyttes:
@@ -44,8 +35,6 @@ Runtime-Terror består av følgende GitLab-brukere:
 | @ajo239    | [GitLab@ajo239][GitLab@ajo239] | Alexander Johnsen         |  
 | @mer079    | [GitLab@mer079][GitLab@mer079] | Mats-Erik Eriksen      |  
   
-### Todos  
- - **Debug!!!**  
   
   
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen.)  
